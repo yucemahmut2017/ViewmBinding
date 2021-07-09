@@ -21,8 +21,8 @@ Set the viewBinding build option to true in the module-level build.gradle file, 
         viewBinding = true
     }
 }
-
-## If you want a layout file to be ignored while generating binding classes, add the tools:viewBindingIgnore="true" attribute to the root view of that layout file:
+###### If you want a layout file to be ignored while generating binding classes, add the tools:viewBindingIgnore="true" attribute to the root view of that layout file:
+ 
 
 <LinearLayout
         ...
