@@ -7,20 +7,18 @@ Once view binding is enabled in a module, it generates a binding class for each 
 # Setup instructions
 Set the viewBinding build option to true in the module-level build.gradle file, as shown in the following example:
 
-
-# The largest heading
-## The second largest heading
-###### The smallest heading
-
-
-
-
+```
    android {
     ...
     buildFeatures {
         viewBinding = true
     }
 }
+```
+
+
+
+
 ###### If you want a layout file to be ignored while generating binding classes, add the tools:viewBindingIgnore="true" attribute to the root view of that layout file:
  
 
