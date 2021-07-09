@@ -21,16 +21,18 @@ Set the viewBinding build option to true in the module-level build.gradle file, 
 
 ###### If you want a layout file to be ignored while generating binding classes, add the tools:viewBindingIgnore="true" attribute to the root view of that layout file:
  
-
+```
 <LinearLayout
         ...
         tools:viewBindingIgnore="true" >
     ...
 </LinearLayout
+```
+
   
 # Use view binding in activities
   
-  
+  ```
 private lateinit var binding: ResultProfileBinding
 
 override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,6 +41,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
     val view = binding.root
     setContentView(view)
 }
+```
+
 
 
 # Links
