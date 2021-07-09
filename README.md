@@ -8,6 +8,12 @@ Once view binding is enabled in a module, it generates a binding class for each 
 Set the viewBinding build option to true in the module-level build.gradle file, as shown in the following example:
 
 
+# The largest heading
+## The second largest heading
+###### The smallest heading
+
+
+
 
    android {
     ...
